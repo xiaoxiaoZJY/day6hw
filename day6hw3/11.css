@@ -1,0 +1,6 @@
+.uls li:first-child {
+		color:red;
+}
+.uls li:last-child {
+		color:green;
+}

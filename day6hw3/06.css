@@ -1,0 +1,12 @@
+.d1 p {
+	color: red;
+}
+.d1 p span {
+	color:blue;
+}
+p span {
+	color:yellow;
+}
+p {
+	color: pink;
+}

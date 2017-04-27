@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*.box .d1 + p {
+			color: red;
+		}*/
+		.d1~p {
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<p>我是d1上面的p</p>
+		<div class="d1">我是d1</div>
+		<p>我是跟d1相邻的p且我在d1下面</p>
+		<p>我是d1下面的p但我跟d1不相邻</p>
+	</div>
+</body>
+</html>
